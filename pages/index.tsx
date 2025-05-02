@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex justify-center py-4 ">
       <Head>
-        <title>Tiankai Xie</title>
+        <title>Joseph Carruth</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -22,49 +22,47 @@ const Home: NextPage = () => {
         <div className="grid sm:grid-cols-4 lg:grid-cols-5">
           <div></div>
           <div className="col-span-4 px-4">
-            <h1 className="text-4xl font-light">Tiankai Xie</h1>
+            <h1 className="text-4xl font-light">Joseph Carruth</h1>
             <h2 className="py-2 text-lg font-light text-gray-500">
-              Graduate Research Associate
+              Mechanical Engineer and Finance Graduate
             </h2>
             <div className="leading-sm inline-flex items-center rounded-full border bg-sky-200 px-3 py-1 text-xs uppercase text-sky-700">
-              XAI
+              Financial Modeling
             </div>
             <div className="leading-sm inline-flex items-center rounded-full border bg-green-200 px-3 py-1 text-xs  uppercase text-green-700">
-              HCI
+              Mechanical Design
             </div>
             <div className="leading-sm inline-flex items-center rounded-full border bg-violet-200 px-3 py-1 text-xs uppercase text-violet-700">
-              Visual Analytics
+              Data Science 
             </div>
             <p className="py-2 text-justify font-light text-gray-600">
-              I am currently a Ph.D. candidate in computer science at{' '}
-              <a href="https://www.asu.edu/" className="text-sky-700">
+              Recent Graduate of {' '}
+              <a href="https://www.lehigh.edu/" className="text-sky-700">
                 {' '}
-                Arizona State University
+                Lehigh University
               </a>
-              . My research is to increase the transparency and interpretability
-              of machine learning models by designing and developing interactive
-              visual analytics systems that can facilitate users to explore and
-              discover potential vulnerabilities of those models in terms of
-              adversarial machine learning, graph mining sensitivity, as well as
-              algorithmic fairness.
+               My undergraduate scope as a Mechanical Engineering Major and Finance
+              major provided me the ability to explore a wide range of topics, industries, 
+              and intellectual endeavors. 
+      
             </p>
             <p className="text-justify font-light text-gray-600">
-              At Arizona State University, I work with Dr.{' '}
+              In my final semester, I took a course with Dr.{' '}
               <a
                 className="text-sky-700"
-                href="http://rmaciejewski.faculty.asu.edu/"
+                href="http://bowen.finance/"
               >
-                Ross Maciejewski
+                Donald Bowen
               </a>{' '}
-              as a member of the
-              <a href="http://vader.lab.asu.edu/"> VADER lab</a>. My research is
-              supported by the U.S. Department of Homeland Security and the{' '}
-              <a
-                className="text-sky-700"
-                href="https://beta.nsf.gov/funding/opportunities/nsf-program-fairness-artificial-intelligence-collaboration-amazon"
-              >
-                National Science Foundation Program on Fairness in AI in
-                collaboration with Amazon
+              , titled Advanced Data Science for Investments.
+              My work consisted of creating various event studies, home price predictors, and even a Neural Network to predict 
+              asset returns. 
+
+              In that same span, I modeled a business jet for former NASA Astronaut Terry Hart's course, Aircraft Design. The aircraft 
+              was designed following rigorous aerodynamic analysis and utilized the OpenVSP software.
+
+
+
               </a>
               .
             </p>
@@ -91,26 +89,13 @@ const Home: NextPage = () => {
                 <span className="pl-1">
                   <a
                     className="text-sm font-light text-sky-700"
-                    href="https://github.com/tiankaixie"
+                    href="https://github.com/josephcarruth"
                   >
-                    @tiankaixie
+                    @josephcarruth
                   </a>
                 </span>
               </div>
-              <div>
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/color/48/000000/twitter--v1.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://twitter.com/tiankaixie"
-                  >
-                    @tiankaixie
-                  </a>
-                </span>
-              </div>
+        
               <div>
                 <img
                   className="inline w-6"
@@ -119,9 +104,9 @@ const Home: NextPage = () => {
                 <span className="pl-1">
                   <a
                     className="text-sm font-light text-sky-700"
-                    href="https://www.linkedin.com/in/tiankaixie/"
+                    href="https://www.linkedin.com/in/joseph-carruth/"
                   >
-                    @tiankaixie
+                    @joseph-carruth
                   </a>
                 </span>
               </div>
@@ -133,9 +118,9 @@ const Home: NextPage = () => {
                 <span className="pl-1">
                   <a
                     className="text-sm font-light text-sky-700"
-                    href="/PDF/Tiankai_Xie_CV.pdf"
+                    href="PDF/Joseph Carruth - Professional Resume.pdf"
                   >
-                    CV.pdf
+                    Resume.pdf
                   </a>
                 </span>
               </div>
@@ -190,12 +175,23 @@ const Home: NextPage = () => {
 
           {/* B.S. */}
           <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
-            <p className="py-4 text-xs font-light">Sep. 2011 - July 2015</p>
+            <p className="py-4 text-xs font-light">Aug. 2021 - May 2025</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base ">B.S. in Computer Science</h3>
+            <h3 className="pt-3 pb-1 text-base ">B.S. in Mechanical Engineering</h3>
             <h4 className="text-base font-light">
-              Beijing Forestry University, Beijing, China{' '}
+              Lehigh University, Bethlehem, Pennsylvania{' '}
+            </h4>
+          </div>
+
+          {/* B.S. */}
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
+            <p className="py-4 text-xs font-light">Aug. 2021 - May 2025</p>
+          </div>
+          <div className="col-span-4 px-4">
+            <h3 className="pt-3 pb-1 text-base ">B.S. in Integrated Business and Engineering Honors - Finance</h3>
+            <h4 className="text-base font-light">
+              Lehigh University, Bethlehem, Pennsylvania{' '}
             </h4>
           </div>
 
@@ -207,24 +203,21 @@ const Home: NextPage = () => {
 
           {/* GSA */}
           <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
-            <p className="py-4 text-xs font-light">Aug. 2018 - Present</p>
+            <p className="py-4 text-xs font-light">May 2024 - July 2024</p>
           </div>
           <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base ">
-              Graduate Research Associate
+              Middle Market Intern
             </h3>
             <h4 className="text-base font-light">
-              VADER Lab, Arizona State University, Tempe, AZ{' '}
+              Texas Capital Bank, Dallas, Texas{' '}
             </h4>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">Advisor:</span> Ross Maciejewski
-            </p>
             <p className="text-justify text-sm font-light text-gray-500">
-              Work as a research assistant for the VADER Lab with the research
-              topics in Explainable AI and Visual Analytics. Current
-              dissertation topic is 'Explaining the vulnerabilities of machine
-              learning models through visual analytics'. Passed dissertation
-              prospectus in Fall 2021.
+              Worked with the Middle Market team to analyze and underwrite
+              commercial loans for small to mid-sized businesses. Assisted in
+              the preparation of credit memos, financial analysis, and risk
+              assessments. Collaborated with senior bankers to develop client
+              relationships and support business development efforts.
             </p>
             <div className="py-2">
               <img
@@ -234,9 +227,9 @@ const Home: NextPage = () => {
               <span className="pl-1">
                 <a
                   className="text-sm font-light text-sky-700"
-                  href="https://vader.lab.asu.edu/"
+                  href="https://texascapital.com/"
                 >
-                  VADER Lab
+                  Texas Capital
                 </a>
               </span>
             </div>
