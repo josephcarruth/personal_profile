@@ -516,6 +516,7 @@ const Home: NextPage = () => {
 
           <div></div>
           {/* End */}
+        </div>  
       </main>
     </div>
   )
