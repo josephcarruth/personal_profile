@@ -39,9 +39,9 @@ const Home: NextPage = () => {
               Recent Graduate of {' '}
               <a href="https://www.lehigh.edu/" className="text-sky-700">
                 {' '}
-                Lehigh University.  
+                Lehigh 
               </a>
-              My undergraduate scope as a Mechanical Engineering Major and Finance
+              . My undergraduate scope as a Mechanical Engineering Major and Finance
               major provided me the ability to explore a wide range of topics, industries, 
               and intellectual endeavors. I was able to pursue and obtain minors in both Aerospace Engineering
               and Economics, highlighting a strong interest in the intersection of technology and business. 
