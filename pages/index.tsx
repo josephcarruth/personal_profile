@@ -66,11 +66,6 @@ const Home: NextPage = () => {
 
               In that same span, I modeled a business jet for former NASA Astronaut Terry Hart's course, Aircraft Design. The aircraft 
               was designed following rigorous aerodynamic analysis, and utilizing OpenVSP software I was able to model and test the aircraft.
-
-
-
-
-              </a>
             </p>
             <div className="container flex justify-between py-4">
               <div>
