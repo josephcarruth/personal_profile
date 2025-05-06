@@ -71,7 +71,6 @@ const Home: NextPage = () => {
 
 
               </a>
-              .
             </p>
             <div className="container flex justify-between py-4">
               <div>
