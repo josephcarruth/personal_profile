@@ -39,13 +39,14 @@ const Home: NextPage = () => {
               Recent Graduate of {' '}
               <a href="https://www.lehigh.edu/" className="text-sky-700">
                 {' '}
-                Lehigh University
+                Lehigh University.  
               </a>
-               My undergraduate scope as a Mechanical Engineering Major and Finance
+              My undergraduate scope as a Mechanical Engineering Major and Finance
               major provided me the ability to explore a wide range of topics, industries, 
               and intellectual endeavors. I was able to pursue and obtain minors in both Aerospace Engineering
               and Economics, highlighting a strong interest in the intersection of technology and business. 
-      
+            </p>
+            <p className="text-justify font-light text-gray-600">
               Alongside my academic pursuits, I was a walk-on member of the Lehigh University rowing team, where I 
               competed in the 1st Varsity 8+ boat for all 4 years, receiving numerous personal and team accolades as
               I gained invaluable experience in teamwork, leadership, and relentless dedication. I also served as the 
@@ -350,78 +351,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          {/* AML */}
-          <div></div>
-          <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base">
-              Explaining Vulnerabilities to Adversarial Machine Learning through
-              Visual Analytics
-            </h3>
-            <p className="text-sm font-light text-gray-400">
-              Yuxin Ma, Tiankai Xie, Jundong Li, and Ross Maciejewski
-            </p>
-            <h4 className="text-base text-sm font-light italic">
-              IEEE Transactions on Visualization and Computer Graphics, 2019{' '}
-            </h4>
-            <div className="container flex py-2">
-              <div className="pr-8">
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/color/48/000000/pdf.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="http://vader.lab.asu.edu/docs/publications/pdf/2019/adva.pdf"
-                  >
-                    PDF
-                  </a>
-                </span>
-              </div>
-              <div className="pr-8">
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/fluency/48/000000/youtube-play.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://www.youtube.com/watch?v=eMyhe7WcOXc"
-                  >
-                    Video
-                  </a>
-                </span>
-              </div>
-              <div className="pr-8">
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/small/96/000000/presentation.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://vimeo.com/369214358"
-                  >
-                    Talk
-                  </a>
-                </span>
-              </div>
-              <div className="pr-8">
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/color-glass/48/000000/code.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://github.com/VADERASU/visual-analytics-adversarial-attacks"
-                  >
-                    Code
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
+          
 
           {/* Reference Section */}
           <div></div>
@@ -460,7 +390,7 @@ const Home: NextPage = () => {
           <div></div>
           <div className="col-span-4 px-4">
             <p>
-              Dr. Terry Hart, <span className="font-light">Professor</span>
+              Terry Hart, <span className="font-light">Professor of Eningeering</span>
             </p>
             <p className="text-sm font-light text-gray-500">
               P.C. Rossin College of Engineering and Applied Science
@@ -476,7 +406,7 @@ const Home: NextPage = () => {
               <span className="pl-1">
                 <a
                   className="text-sm font-light text-sky-700"
-                  href="http://www.public.asu.edu/~huanliu/"
+                  href="https://engineering.lehigh.edu/faculty/terry-j-hart"
                 >
                   Homepage
                 </a>
@@ -489,10 +419,10 @@ const Home: NextPage = () => {
           <div className="col-span-4 px-4">
             <p>
               Dr. Greg Reihman,{' '}
-              <span className="font-light">Professor of Philosophy, Vice Provost</span>
+              <span className="font-light">Vice Provost of Library and Technology Services, Professor of Philosophy</span>
             </p>
             <p className="text-sm font-light text-gray-500">
-              The School of Computing and Augmented Intelligence (SCAI)
+              Lehigh University
             </p>
             <p className="font-light italic text-gray-500">
               Lehigh University
@@ -505,7 +435,7 @@ const Home: NextPage = () => {
               <span className="pl-1">
                 <a
                   className="text-sm font-light text-sky-700"
-                  href="https://chrisbryan.github.io/"
+                  href="https://wordpress.lehigh.edu/grr3/"
                 >
                   Homepage
                 </a>
