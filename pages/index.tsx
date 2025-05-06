@@ -43,8 +43,14 @@ const Home: NextPage = () => {
               </a>
                My undergraduate scope as a Mechanical Engineering Major and Finance
               major provided me the ability to explore a wide range of topics, industries, 
-              and intellectual endeavors. 
+              and intellectual endeavors. I was able to pursue and obtain minors in both Aerospace Engineering
+              and Economics, highlighting a strong interest in the intersection of technology and business. 
       
+              Alongside my academic pursuits, I was a walk-on member of the Lehigh University rowing team, where I 
+              competed in the 1st Varsity 8+ boat for all 4 years, receiving numerous personal and team accolades as
+              I gained invaluable experience in teamwork, leadership, and relentless dedication. I also served as the 
+              Vice President of the Engineering Honors Society, Tau Beta Pi, the oldest and original chapter of the 
+              Engineering Honor Society in the United States.  
             </p>
             <p className="text-justify font-light text-gray-600">
               In my final semester, I took a course with Dr.{' '}
@@ -55,11 +61,12 @@ const Home: NextPage = () => {
                 Donald Bowen
               </a>{' '}
               , titled Advanced Data Science for Investments.
-              My work consisted of creating various event studies, home price predictors, and even a Neural Network to predict 
-              asset returns. 
+              My work consisted of creating various event studies, including home price predictors, a natural language processor 
+              to forecast returns from 10-K filings, and a Neural Network to predict asset returns. 
 
               In that same span, I modeled a business jet for former NASA Astronaut Terry Hart's course, Aircraft Design. The aircraft 
-              was designed following rigorous aerodynamic analysis and utilized the OpenVSP software.
+              was designed following rigorous aerodynamic analysis, and utilizing OpenVSP software I was able to model and test the aircraft.
+
 
 
 
@@ -134,45 +141,6 @@ const Home: NextPage = () => {
             <h1 className="pt-8 pb-4 text-3xl font-light">Education</h1>
           </div>
 
-          {/* Ph.D. */}
-          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
-            <p className="py-4 text-xs font-light">Aug. 2018 - Present</p>
-          </div>
-          <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base">Ph.D. in Computer Science</h3>
-            <h4 className="text-base font-light">
-              Arizona State University, Tempe, AZ{' '}
-            </h4>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">GPA:</span> 3.69 / 4.0
-            </p>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">Advisor:</span> Ross Maciejewski
-            </p>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">Dissertation:</span> Explaining
-              Vulnerabilities in Machine Learning through Visual Analytics
-            </p>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">Committee:</span> Ross
-              Maciejewski, Huan Liu, Chris Bryan, and Hanghang Tong
-            </p>
-          </div>
-
-          {/* M.S. */}
-          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
-            <p className="py-4 text-xs font-light">Aug. 2015 - May 2017</p>
-          </div>
-          <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base ">M.S. in Computer Science</h3>
-            <h4 className="text-base font-light">
-              Steven Institute of Technology, Hoboken, NJ{' '}
-            </h4>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">GPA:</span> 3.77 / 4.0
-            </p>
-          </div>
-
           {/* B.S. */}
           <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">Aug. 2021 - May 2025</p>
@@ -201,7 +169,7 @@ const Home: NextPage = () => {
             <h1 className="pt-8 pb-4 text-3xl font-light">Experience</h1>
           </div>
 
-          {/* GSA */}
+          {/* Intern */}
           <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">May 2024 - July 2024</p>
           </div>
@@ -235,91 +203,21 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          {/* Intern Epsilon */}
-          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
-            <p className="py-4 text-xs font-light">May 2021 - Aug. 2021</p>
-          </div>
-          <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base ">Data Science Intern</h3>
-            <h4 className="text-base font-light">
-              Epsilon Data Management, LLC., Chicago, IL{' '}
-            </h4>
-            <p className="text-sm font-light">
-              <span className="text-gray-400">Mentor:</span> Chihua Ma
-            </p>
-            <p className="text-justify text-sm font-light text-gray-500">
-              Designed and implemented the algorithm to extract highlights from
-              the aggregated audience data across 2500+ companies. Designed,
-              implemented and integrated the Intelligent Audience Profile (IAP)
-              visualization view driven by the designed highlighting algorithm
-              into the DiME visual analytics platform.
-            </p>
-            <div className="py-2">
-              <img
-                className="inline w-6"
-                src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"
-              />
-              <span className="pl-1">
-                <a
-                  className="text-sm font-light text-sky-700"
-                  href="https://www.epsilon.com/us/products-and-services/epsilon-peoplecloud/digital-media-solutions"
-                >
-                  Epsilon & DiME
-                </a>
-              </span>
-            </div>
-          </div>
-
-          {/* Intern Epsilon */}
-          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
-            <p className="py-4 text-xs font-light">July 2017 - May 2018</p>
-          </div>
-          <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base ">Co-founder</h3>
-            <h4 className="text-base font-light">
-              RobotGyms, Inc., San Mateo, CA{' '}
-            </h4>
-            <p className="text-justify text-sm font-light text-gray-500">
-              Designed, implemented Robotgyms's infrastructure and curriculum.
-              and maintained the company's teaching devices, including local
-              network and devices' software and hardware installation and
-              upgrade. Developed policies and training plans for online resource
-              administration and usage. Give lectures for 40+ students and took
-              charge of customer consultation, and conducted SEO and SMO for
-              branding programs as well as the company.
-            </p>
-            <div className="py-2">
-              <img
-                className="inline w-6"
-                src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"
-              />
-              <span className="pl-1">
-                <a
-                  className="text-sm font-light text-sky-700"
-                  href="https://robotgyms.com"
-                >
-                  RobotGyms
-                </a>
-              </span>
-            </div>
-          </div>
-
-          {/* Publication Section */}
+          
+          {/* Research Section */}
           <div></div>
           <div className="col-span-4 px-4">
-            <h1 className="pt-8 pb-4 text-3xl font-light">Publications</h1>
+            <h1 className="pt-8 pb-4 text-3xl font-light">Research</h1>
           </div>
 
-          {/* FairrankVis */}
+          {/* Team Project */}
           <div></div>
           <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base">
-              FairRankVis: A Visual Analytics Framework for Exploring
-              Algorithmic Fairness in Graph Mining Models
+              Fitting Neural Networks of Increasing Complexity to Predict Asset Returns: Portfolio Analysis
             </h3>
             <p className="text-sm font-light text-gray-400">
-              Tiankai Xie, Yuxin Ma, Jian Kang, Hanghang Tong, and Ross
-              Maciejewski
+              Joseph Carruth, Jay Geneve, Michael Jamesley, and Evan Trock
             </p>
             <h4 className="text-base text-sm font-light italic">
               IEEE Transactions on Visualization and Computer Graphics, 2021{' '}
@@ -540,14 +438,14 @@ const Home: NextPage = () => {
           <div></div>
           <div className="col-span-4 px-4">
             <p>
-              Dr. Ross Maciejewski,{' '}
-              <span className="font-light">Professor</span>
+              Dr. Donald Bowen,{' '}
+              <span className="font-light">Associate Professor</span>
             </p>
             <p className="text-sm font-light text-gray-500">
-              The School of Computing and Augmented Intelligence (SCAI)
+              
             </p>
             <p className="font-light italic text-gray-500">
-              Arizona State University
+              Lehigh University
             </p>
             <div className="py-2">
               <img
@@ -557,7 +455,7 @@ const Home: NextPage = () => {
               <span className="pl-1">
                 <a
                   className="text-sm font-light text-sky-700"
-                  href="http://rmaciejewski.faculty.asu.edu/"
+                  href="http://bowen.finance/"
                 >
                   Homepage
                 </a>
@@ -568,13 +466,13 @@ const Home: NextPage = () => {
           <div></div>
           <div className="col-span-4 px-4">
             <p>
-              Dr. Huan Liu, <span className="font-light">Professor</span>
+              Dr. Terry Hart, <span className="font-light">Professor</span>
             </p>
             <p className="text-sm font-light text-gray-500">
-              The School of Computing and Augmented Intelligence (SCAI)
+              P.C. Rossin College of Engineering and Applied Science
             </p>
             <p className="font-light italic text-gray-500">
-              Arizona State University
+              Lehigh University
             </p>
             <div className="py-2">
               <img
@@ -592,45 +490,18 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div></div>
-          <div className="col-span-4 px-4">
-            <p>
-              Dr. Hanghang Tong,{' '}
-              <span className="font-light">Associate Professor</span>
-            </p>
-            <p className="text-sm font-light text-gray-500">
-              Department of Computer Science
-            </p>
-            <p className="font-light italic text-gray-500">
-              University of Illinois at Urbana-Champaign
-            </p>
-            <div className="py-2">
-              <img
-                className="inline w-6"
-                src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"
-              />
-              <span className="pl-1">
-                <a
-                  className="text-sm font-light text-sky-700"
-                  href="http://tonghanghang.org/"
-                >
-                  Homepage
-                </a>
-              </span>
-            </div>
-          </div>
 
           <div></div>
           <div className="col-span-4 px-4">
             <p>
-              Dr. Chris Bryan,{' '}
-              <span className="font-light">Assistant Professor</span>
+              Dr. Greg Reihman,{' '}
+              <span className="font-light">Professor of Philosophy, Vice Provost</span>
             </p>
             <p className="text-sm font-light text-gray-500">
               The School of Computing and Augmented Intelligence (SCAI)
             </p>
             <p className="font-light italic text-gray-500">
-              Arizona State University
+              Lehigh University
             </p>
             <div className="py-2">
               <img
@@ -648,61 +519,8 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div></div>
-          <div className="col-span-4 px-4">
-            <p>
-              Dr. Yuxin Ma,{' '}
-              <span className="font-light">Assistant Professor</span>
-            </p>
-            <p className="text-sm font-light text-gray-500">
-              Department of Computer Science and Engineering
-            </p>
-            <p className="font-light italic text-gray-500">
-              Southern University of Science and Technology
-            </p>
-            <div className="py-2">
-              <img
-                className="inline w-6"
-                src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"
-              />
-              <span className="pl-1">
-                <a
-                  className="text-sm font-light text-sky-700"
-                  href="https://mayuxin.me/"
-                >
-                  Homepage
-                </a>
-              </span>
-            </div>
-          </div>
 
           <div></div>
-          <div className="col-span-4 px-4">
-            <p>
-              Dr. Jundong Li,{' '}
-              <span className="font-light">Assistant Professor</span>
-            </p>
-            <p className="text-sm font-light text-gray-500">
-              Department of Computer Science, and School of Data Science
-            </p>
-            <p className="font-light italic text-gray-500">
-              University of Virginia
-            </p>
-            <div className="py-2">
-              <img
-                className="inline w-6"
-                src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"
-              />
-              <span className="pl-1">
-                <a
-                  className="text-sm font-light text-sky-700"
-                  href="http://www.ece.virginia.edu/~jl6qk/"
-                >
-                  Homepage
-                </a>
-              </span>
-            </div>
-          </div>
           {/* End */}
         </div>
       </main>
