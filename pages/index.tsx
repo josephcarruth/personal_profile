@@ -69,20 +69,7 @@ const Home: NextPage = () => {
               was designed following rigorous aerodynamic analysis, and utilizing OpenVSP software I was able to model and test the aircraft.
             </p>
             <div className="container flex justify-between py-4">
-              <div>
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/color/48/000000/google-scholar--v3.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://scholar.google.com/citations?user=iGRSrJUAAAAJ&hl=en&inst=1960582506653781529&oi=ao"
-                  >
-                    Scholar
-                  </a>
-                </span>
-              </div>
+              
               <div>
                 <img
                   className="inline w-6"
@@ -215,51 +202,25 @@ const Home: NextPage = () => {
               Joseph Carruth, Jay Geneve, Michael Jamesley, and Evan Trock
             </p>
             <h4 className="text-base text-sm font-light italic">
-              IEEE Transactions on Visualization and Computer Graphics, 2021{' '}
+              Lehigh University, 2025{' '}
             </h4>
             <div className="container flex py-2">
-              <div className="pr-8">
+              
+            <div className="pr-8">
                 <img
                   className="inline w-6"
-                  src="https://img.icons8.com/color/48/000000/pdf.png"
+                  src="https://img.icons8.com/?size=100&id=63807&format=png&color=000000"
                 />
                 <span className="pl-1">
                   <a
                     className="text-sm font-light text-sky-700"
-                    href="/PDF/FairRankVis.pdf"
+                    href="https://lehigh-asset-pricing.streamlit.app/"
                   >
-                    PDF
+                    Website
                   </a>
                 </span>
               </div>
-              <div className="pr-8">
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/fluency/48/000000/youtube-play.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://youtu.be/WVJ3-UXNxPk"
-                  >
-                    Video
-                  </a>
-                </span>
-              </div>
-              <div className="pr-8">
-                <img
-                  className="inline w-6"
-                  src="https://img.icons8.com/small/96/000000/presentation.png"
-                />
-                <span className="pl-1">
-                  <a
-                    className="text-sm font-light text-sky-700"
-                    href="https://youtu.be/-pk4VaxJt7I"
-                  >
-                    Talk
-                  </a>
-                </span>
-              </div>
+              
               <div className="pr-8">
                 <img
                   className="inline w-6"
@@ -268,7 +229,7 @@ const Home: NextPage = () => {
                 <span className="pl-1">
                   <a
                     className="text-sm font-light text-sky-700"
-                    href="https://github.com/VADERASU/fairrankvis"
+                    href="https://github.com/mikej3663/Lehigh-Asset-Pricing"
                   >
                     Code
                   </a>
